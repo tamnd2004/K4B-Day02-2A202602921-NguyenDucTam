@@ -4,10 +4,15 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên:
-- Mã học viên:
-- Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...):
-- Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
+- Họ và tên: Nguyễn Đức Tâm (theo tên repo).
+- Mã học viên: 2A202602921 (theo tên repo).
+- Vai trò / bối cảnh: Học viên đang thực hành Python/LLM, làm bài lab và quản lý bài bằng GitHub. Bối cảnh được suy ra từ workspace hiện có; cần người học xác nhận.
+- Các hoạt động gợi ý để đối chiếu với công việc hằng tuần:
+  - Đọc yêu cầu bài lab, đối chiếu tài liệu với file cần sửa.
+  - Chuẩn bị môi trường Python và chạy bài thực hành trên máy cá nhân.
+  - Đọc lỗi, sửa code và kiểm tra kết quả bằng test.
+  - Tổng hợp kết quả thực hành, viết câu trả lời và chuẩn bị bài nộp.
+  - Trao đổi lỗi hoặc yêu cầu bài tập với bạn cùng lớp, nếu có.
 
 ---
 
@@ -15,30 +20,27 @@
 
 **Cách điền:** mỗi dòng = việc gì + ai chịu + đo bằng gì. Cột `Dấu hiệu thật` bắt buộc có số: mất bao lâu (bấm giờ mấy lần), mấy lần/tuần, bao nhiêu người gặp, log/ticket/quote nào.
 
-| # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
-|---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
-| 9 | | | | |
-| 10 | | | | |
+| #   | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được                                                                                                                                                                   | Ai chịu ảnh hưởng?                                           | Dấu hiệu thật (số + bằng chứng)                                                                                                                                                    |
+| --- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Lặp lại / Tốn thời gian                                                      | Khi chuyển sang repo bài lab mới, người học phải tìm lại các bước tạo môi trường ảo, chọn Python interpreter và cài dependency; việc chuẩn bị kéo dài trước khi chạy được bài đầu tiên. | Người học trực tiếp thiết lập và chạy repo trên máy cá nhân. | 2 lần/tuần, mỗi lần mất 10-15 phút để setup                                                                                                                                        |
+| 2   | Lặp lại / Tốn thời gian                                                      | Tìm bạn gái                                                                                                                                                                             | Bản thân không tìm được người phù hợp                        | 3 lần/tuần, mỗi lần mất cỡ 5-6 tiếng để đi date và tìm hiểu                                                                                                                        |
+| 3   | AI có thể tốt hơn / Tốn thời gian                                            | Khi bài Python báo lỗi, người học đọc traceback và tìm hướng dẫn nhưng khó nối thông báo lỗi với đoạn code gây ra lỗi; phải thử nhiều cách sửa trước khi chạy lại thành công.           | Người học trực tiếp sửa lỗi trong bài thực hành Python.      | Cần ghi thời gian xử lý từng lỗi, số lần sửa rồi chạy lại và kết quả cuối; lưu traceback cùng thay đổi code tương ứng.                                                             |
+| 4   | AI có thể tốt hơn / Tốn thời gian                                            | Reproduce baseline cho các paper mà không publish code mà chỉ có results.                                                                                                               | AI researchers khi cần benchmark cho project                 | Lặp lại nhiều lần nếu khi nhiều baseline (một trong các baseline đó như PaLM mà không có code), 1 ngày cho mỗi baseline (nửa ngày lấy data, nửa ngày setup môi trường và tìm code) |
+| 5   | Lặp lại / Tốn thời gian                                                      | Sau khi chạy các phần thực hành, người học phải chép kết quả từ terminal vào Markdown và căn chỉnh bảng bằng tay; khi chạy lại hoặc sửa code, nội dung bài viết dễ còn giữ kết quả cũ.  | Người học tổng hợp kết quả và hoàn thiện bài nộp.            | Cập nhật bài viết mỗi lần làm 1 module mới, mất tầm 2 phút mỗi lần đối chiếu Markdown với log chạy tương ứng                                                                       |
 
 > Gợi ý tự soi: tuần trước mất nhiều thời gian nhất vào việc gì? Việc gì hay trì hoãn? Người khác hay hỏi lại câu gì? Workflow nào ai cũng biết là chậm?
 
 **AI đã dùng ở Phase 1 (nếu có):**
-- Prompt đã hỏi:
+
+- Prompt đã hỏi: “Tìm các papers mà chỉ có results chứ không có publish code”
 - Ý dùng được:
-- Ý bỏ vì không phải pain thật:
+- Ý bỏ vì không phải pain thật: Code Python lỗi, người dùng đọc traceback và tìm ra nguyên nhân -> Không phải là pain thật vì đã có AI agent hỗ trợ.
 
 **Self-check Phase 1:**
-- [ ] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
-- [ ] Dùng ít nhất 3/4 lăng kính
-- [ ] Không có dòng chung chung kiểu "mất nhiều thời gian"
+
+- [x] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
+- [x] Dùng ít nhất 3/4 lăng kính
+- [x] Không có dòng chung chung kiểu "mất nhiều thời gian"
 
 ---
 
@@ -49,10 +51,10 @@
 Giữ bài nào: actor cụ thể, workflow vẽ được 3-7 bước, bottleneck ở 1 bước, impact đo được. Loại bài quá rộng.
 
 | Rank | Problem (copy từ bảng scan) | Vì sao chọn (2-3 ý) | Điều còn chưa chắc |
-|---|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| ---- | --------------------------- | ------------------- | ------------------ |
+| 1    |                             |                     |                    |
+| 2    |                             |                     |                    |
+| 3    |                             |                     |                    |
 
 ### 2.2. Problem Cards chi tiết (lặp lại cho cả 3 cards)
 
@@ -235,10 +237,12 @@ File đính kèm: `01-individual-problem-scan-workflow-card-3.png`
 ```
 
 **AI phản biện Card (nếu có):**
+
 - Điểm yếu AI chỉ ra:
 - Tôi sửa gì:
 
 ### Self-check nộp phần 01
+
 - [ ] Có 5+ problems + top 3 Cards đủ field
 - [ ] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
 - [ ] Đã chọn 1 card pitch + câu hỏi challenge
