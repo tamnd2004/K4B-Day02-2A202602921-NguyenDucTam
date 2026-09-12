@@ -4,9 +4,9 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên:
-- Mã học viên:
-- Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...): Sinh viên, đồng thời đang đi làm/intern; tự quản lý lịch học, lịch làm việc và sinh hoạt cá nhân.
+- Họ và tên: Nguyễn Đức Tâm
+- Mã học viên: 2A202602921
+- Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...): Sinh viên mới ra trường
 - Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
   - Đi học/đi làm và theo dõi lịch, deadline.
   - Lên kế hoạch các công việc cần làm trong ngày.
